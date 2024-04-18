@@ -17,6 +17,10 @@ module CryptKeeper
 
     attr_accessor :silence_logs
     alias_method :silence_logs?, :silence_logs
+
+    def active_record_7_1?
+      ActiveRecord::VERSION::MAJOR >= 7 && ActiveRecord::VERSION::MINOR >= 1
+    end
   end
 end
 
