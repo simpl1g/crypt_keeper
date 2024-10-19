@@ -43,3 +43,9 @@ appraise "activerecord_7_2" do
   gem "activesupport", "~> 7.2.0"
   gem "pg", "~> 1.1"
 end
+
+appraise "activerecord_8_0" do
+  gem "activerecord",  "~> 8.0.0.rc1"
+  gem "activesupport", "~> 8.0.0.rc1"
+  gem "pg", "~> 1.1"
+end
